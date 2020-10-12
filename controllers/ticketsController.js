@@ -6,9 +6,9 @@ const { Console } = require('console');
 const WooCommerceRestApi = require("@woocommerce/woocommerce-rest-api").default;
  
 const WooCommerce = new WooCommerceRestApi({
-    url: "https://fisioproyectos.com",
-    consumerKey: "ck_15a752038e7711573024d7b5b0776d8847a566e8",
-    consumerSecret: "cs_2b9210ab28b998f84ec06d4ef710f8c53dc88c73",
+    url: "https://localhost/wordpress",
+    consumerKey: "ck_f4486bc7ca0a059262b8bc77d257f482bc2f12f3",
+    consumerSecret: "cs_95ccc2c7181cd952e90546adb2b6538b7d247acd",
     version: "wc/v3",
     queryStringAuth: true // Force Basic Authentication as query string true and using under HTTPS
 });
